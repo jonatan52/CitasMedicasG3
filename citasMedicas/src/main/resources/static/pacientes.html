@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paciente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+
+    <body>
+        
+        <nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><h1>Citas Medicas</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pacientes.html">Pacientes</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="doctor.html">
+                                Doctor
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="citas.html">Citas</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <div id="pacientes">
+            <h1>Pacientes</h1>
+        </div>
+        <!----------------------------------------- Formulario ---------------------------------->
+        <div class="formulario">
+            <h2>Adicionar paciente</h2>
+            <form id="create-pacientes">
+
+                Id Paciente:
+                <input type="number" name="idPaciente">
+                Nombre Paciente:
+                <input type="text" name="nombrePaciente">
+                Apellido1 Paciente:
+                <input type="text" name="apellidoPaciente1">
+                Apellido2 Paciente:
+                <input type="text" name="apellidoPaciente2">
+                Edad Paciente:
+                <input type="number" name="edad">
+                Genero:
+                <input type="text" name="genero">
+                Telefono:
+                <input type="number" name="telefono">
+                Direccion:
+                <input type="text" name="direccion">
+                Correo electrónico:
+                <input type="text" name="correo">
+                Eps:
+                <input type="text" name="eps">
+                <input type="submit" name="submit" id="submit-new">
+
+
+            </form>
+        </div>
+        <script src="pacientes.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+    </body>
+    <div id="foot">
+        <footer class="bg-dark text-white pt-5 pb-4 text-center">
+            <p>Author: Jonatan T, Oscar C, Jhony <br>
+                <a href="mailto:Citasmedicas@example.com">Citasmedicas@example.com</a><br>
+                <span>&copy;Copyright 2022</span>
+            </p>
+        </footer>
+    </div>
+</html>

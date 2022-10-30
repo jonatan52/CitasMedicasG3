@@ -1,0 +1,74 @@
+.formulario{
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    border-radius: 5px ;
+    border:solid #D5D8DC ;
+    background-color: #F2F4F4;
+    color:#17202A ;
+}
+
+#citasMedicas{
+    padding: 20px;
+    margin: 30px 20px 20px 20px;
+    border-radius: 5px ;
+    border:solid #D5D8DC ;
+
+}
+#pacientes{
+    padding: 20px;
+    margin: 30px 20px 20px 20px;
+    border-radius: 5px ;
+    border:solid #D5D8DC ;
+
+}
+#doctores{
+    padding: 20px;
+    margin: 30px 20px 20px 20px;
+    border-radius: 5px ;
+    border:solid #D5D8DC ;
+
+}
+
+
+input{
+    border:solid #D5D8DC;
+    margin-left: 50px;
+    display: block;
+
+}
+
+
+
+body{
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+.imagen{
+    background-repeat:no-repeat;
+
+
+}
+img{
+    width: 100%;
+    overflow: hidden;
+}
+
+h2{
+    padding-left: 10px;
+}
+
+
+footer{
+    background-color: black;
+    align-items: center;
+    position:absolute;
+    botton: 0;
+    width: 100%;
+
+
+}
+
+
+
+
